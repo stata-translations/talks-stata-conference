@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    branches: arc-forum-slides
+    branches: main
 
 name: Quarto Publish
 
