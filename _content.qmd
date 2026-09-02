@@ -29,7 +29,7 @@
  
 ## Example artbin - Sample size calculator for randomized trials.
 
-![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." " height="280"}
+![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." height="280"}
 
   - Published in Stata journal
   - High quality software (including documentation and tests)
@@ -191,6 +191,14 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
   - Translation depends on documentation and testing as well as source code quality.
   - Results are non deterministic.
 
-## Contributors:
+## Thanks
+  
+  Contributors:
 
   Asif Tamuri, James Carpenter, Matthew Burnell, David Fisher, Babak Choodri-Oskooei, Matteo Quartagno, Becky Turner, Tra My Pham, Guilio Scola, Michelle Clements, Ian White, Samina Begum, Henry Bern, Akshay Jagadeesh, David Perez-Suarez, Haroon Chughtai, and Toby Thompson.
+
+  Links:
+
+  Slides: [https://doi.org/10.5281/zenodo.22124101](https://doi.org/10.5281/zenodo.22124101)
+  Workshop Results: [https://doi.org/10.5281/zenodo.22093627](https://doi.org/10.5281/zenodo.22093627)
+  Stata2R Plugin: [https://github.com/stata-translations/Stata2R](https://github.com/stata-translations/Stata2R)
