@@ -32,16 +32,16 @@
 ![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." height="240"}
 
   - High quality software (including documentation and tests)
-  - Open source (GPL3) - free to download/modify
-    - need Stata Library to run.
   - Demonstrated Impact - cited in 4 published trials.
+  - Open source (GPL3) - free to download/modify
+    - need Stata License to run.
 
 ## Motivation Stata and R (Software Metrics)
 
  - R is free and open source. 
  - Many more users and developers for R.
  - Stata Language on GitHub 18.4K repositories 
- - R Language on GithHub 1.1M repositories ~ median 313 stars 
+ - R Language on GithHub 1.1M repositories
  
 ## Motivation Stata and R - Creating Impact
 
@@ -58,15 +58,13 @@
 
  - Can we leverage advances in agent based code translation?
 
-## Rapidly growing work on code translation using language models.
 
 ## Agentic Coding (Claude Code)
  
  - A user interface for working with large language models to complete software tasks. 
  - Users communicate in plain text (for example "translate artbin to R")
  - Non deterministic (stochastic sampling from many possible answers).
- - Supports extension with "Skills" and "Plugins"
- - We wrote a Stata2R plugin with 4 skills to try and limit the effects of non deterministic behaviour.
+ - We developed a Stata2R "plugin2 with 4 "skills" to try and limit the effects of non deterministic behaviour.
 
 ## Plugin Skill 1: Translation Strategy
  
@@ -121,12 +119,6 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="X-Y plot of Stata vs R Fluency. No one was fluent in both."></iframe>
 ```
 
-## Post-Workshop: Skills assessment (interaction required).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_interaction.html" title="The amount of interaction required by model variant."></iframe>
-```
-
 ## Post-Workshop: Skills assessment (Time Taken).
 
 ```{=html}
@@ -155,10 +147,10 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 ## Summary
 
   - Claude can translate code.
+  - Results are non deterministic.
   - The plugin provides some structure, but human intervention is still required to keep Claude on track.
   - Translation depends on documentation and testing as well as source code quality.
   - Accuracy and validation is critical for clinical trials software.
-  - Results are non deterministic.
 
 ## Thanks
   
