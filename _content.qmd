@@ -98,12 +98,12 @@
 ## Plugin Contents 3: Pseudocode to R
  
  - Use the pseudocode to create an R package.
+ - Copy over licence file and create README, CONTRIBUTING, files etc.
 
 ## Plugin Contents 4: Add Stata Tests to R
  
  - Port the Stata tests to R and confirm they pass (verification step)
  - Port Stata documentation and examples to R (create vignettes)
- - Copy over licence file and create README, CONTRIBUTING, files etc.
  
 ## What's in a Skill
 
@@ -132,31 +132,12 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 
   - Claude can translate code and appears to give sensible results.
   - Participants were generally happy and eager to pursue this further.
-    - Statisticians take the accuracy of the software very seriously. 
+  - Accuracy and validation is critical for clinical trials software.
 
 ## Pre-Workshop: Stata and R Fluency
 
 ```{=html}
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="X-Y plot of Stata vs R Fluency. No one was fluent in both."></iframe>
-```
-
-## Pre-Workshop: Expectations Word Cloud
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre_expectations.html" title="A word cloud of answers to the free text question 'Is there anything specific you want to get out of the workshop?' The dominant phrase is 'Stata to R Translation' Other phrases include 'LLM Workflow best practices' and 'Exploring Claude's Capabilities'"></iframe>
-```
-
-## Post-Workshop: Concerns Work Cloud
-
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_concerns_wordcloud.html" title="A word cloud of answers to the post workshop question 'What concerns (if any) do you have with using large language models for code translation? Notabale answers include 'Fear of hidden errors' and 'Testing and output control'"></iframe>
-```
-
-## Post-Workshop: Ideas for Improvements / Future Work.
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="A word cloud of answers to the question "What improvements would you suggest? Most respondonts wanted to see more work on 'verifying correctness'"></iframe>
 ```
 
 ## Post-Workshop: Skills assessment (interaction required).
@@ -177,6 +158,19 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_time.html" title="The third blood vessel game."></iframe>
 ```
 
+
+## Post-Workshop: Concerns Work Cloud
+
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_concerns_wordcloud.html" title="A word cloud of answers to the post workshop question 'What concerns (if any) do you have with using large language models for code translation? Notabale answers include 'Fear of hidden errors' and 'Testing and output control'"></iframe>
+```
+
+## Post-Workshop: Ideas for Improvements / Future Work.
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="A word cloud of answers to the question "What improvements would you suggest? Most respondonts wanted to see more work on 'verifying correctness'"></iframe>
+```
 ## Further Considerations
 
   - Ongoing development (do you plan on maintaining both versions?)
