@@ -134,24 +134,12 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
   - Participants were generally happy and eager to pursue this further.
     - Statisticians take the accuracy of the software very seriously. 
 
-
-## Pre-Workshop: Stata Fluency
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata_fluency.html" title="The participants self reported stata fluency. 8 were fluent, 4 Occasional, 1 never."></iframe>
-```
-
 ## Pre-Workshop: Stata and R Fluency
 
 ```{=html}
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="X-Y plot of Stata vs R Fluency. No one was fluent in both."></iframe>
 ```
 
-## Pre-Workshop: Language Correlation
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-languages.html" title="Correlation between language fluency. Fluency in Stata was negatively correlated with fluency in R, Python, and Matlab."></iframe>
-```
 ## Pre-Workshop: Expectations Word Cloud
 
 ```{=html}
@@ -171,28 +159,10 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="A word cloud of answers to the question "What improvements would you suggest? Most respondonts wanted to see more work on 'verifying correctness'"></iframe>
 ```
 
-## Post-Workshop: Skills assessment (analysis).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_analysis.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop: Skills assessment (infrastructure).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_infrastructure.html" title="The third blood vessel game."></iframe>
-```
-
 ## Post-Workshop: Skills assessment (interaction required).
 
 ```{=html}
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_interaction.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop: Skills assessment (pseudocode).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_pseudocode.html" title="The third blood vessel game."></iframe>
 ```
 
 ## Post-Workshop: Skills assessment (reliability).
@@ -201,34 +171,10 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_reliability.html" title="The third blood vessel game."></iframe>
 ```
 
-## Post-Workshop: Skills assessment (target language quality).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_target_language.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop: Skills assessment (testing quality).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_testing.html" title="The third blood vessel game."></iframe>
-```
-
 ## Post-Workshop: Skills assessment (Time Taken).
 
 ```{=html}
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_time.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop: Skills assessment (Documentation Quality).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_vs_effort.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop: Workshop Quality
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_workshop_useful.html" title="The third blood vessel game."></iframe>
 ```
 
 ## Further Considerations
@@ -244,8 +190,7 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
   - The plugin provides some structure, but human intervention is still required to keep Claude on track.
   - Translation depends on documentation and testing as well as source code quality.
   - Results are non deterministic.
-  - Future work: Publish to CRAN.
 
-## With thanks to:
+## Contributors:
 
-  Asif Tamuri, James Carpenter, Matthew Burnell, David Fisher, Babak Choodri-Oskooei, Matteo Quartagno, Becky Turner, Tra My Pham, Guilio Scola, Michelle Clements, Ian White, Samina Begum, Henry Bern, Akshay Jagadeesh, David Perez-Suarez, Haroon Chughtai, and Toby.
+  Asif Tamuri, James Carpenter, Matthew Burnell, David Fisher, Babak Choodri-Oskooei, Matteo Quartagno, Becky Turner, Tra My Pham, Guilio Scola, Michelle Clements, Ian White, Samina Begum, Henry Bern, Akshay Jagadeesh, David Perez-Suarez, Haroon Chughtai, and Toby Thompson.
