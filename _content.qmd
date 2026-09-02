@@ -9,7 +9,7 @@
 
 ![](images/clinical_trials_unit.png){fig-alt="A screenshot of the Innovative Clinical Trials Unit website" height="280"}
 
- - World leaders in clinical trial design.
+ - Expert in clinical trial design and analysis.
  - Robust/tested statistics to support clinical trial design.
  - Impact through successful clinical trials.
 
@@ -33,15 +33,14 @@
 
   - High quality software (including documentation and tests)
   - Open source (GPL3) - free to download/modify
-    - need Stata Library to use.
-  - Demonstrable impact - currently cited in 4 trial based studies.
+    - need Stata Library to run.
+  - Demonstrated Impact - cited in 4 published trials.
 
 ## Motivation Stata and R (Software Metrics)
 
  - R is free and open source. 
  - Many more users and developers for R.
- - Stata Language on GitHub 18.4K repositories ~ median 6 stars 
-   - High impact Stata packages reghdfe 248 stars, ietoolkit 244
+ - Stata Language on GitHub 18.4K repositories 
  - R Language on GithHub 1.1M repositories ~ median 313 stars 
  
 ## Motivation Stata and R - Creating Impact
