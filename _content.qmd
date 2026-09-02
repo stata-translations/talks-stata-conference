@@ -79,7 +79,8 @@
  - A user interface for working with large language models to complete software tasks. 
  - Users communicate in plain text (for example "translate artbin to R")
  - Non deterministic (stochastic sampling from many possible answers).
- - 
+ - Supports extension with "Skills" and "Plugins"
+ - We wrote a Stata2R plugin to try and limit the effects of non deterministic behaviour.
 
 ## What's in a plugin
 A plugin is a collection of `Skills`
@@ -113,7 +114,7 @@ A plugin is a collection of `Skills`
 
 ## What's in a Skill
 
-[Skills are Markdown](https://github.com/stata-translations/Stata2R/blob/main/stata-translation/skills/)
+[Skills are Plain Text](https://github.com/stata-translations/Stata2R/blob/main/stata-translation/skills/)
 
  - And easy to install
 
@@ -127,7 +128,7 @@ A plugin is a collection of `Skills`
 
 ## Run as an interactive workshop
 
-Developed and delivered a [Workshop](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md) to around 
+Developed and delivered a [Workshop](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md) to  
 10 statisticians. Aims:
 
   - Teach them how to use Claude to translate code.
@@ -141,12 +142,6 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
   - Participants were generally happy and eager to pursue this further.
     - Statisticians take the accuracy of the software very seriously. 
 
-
-## Pre-Workshop: Current Roles
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="Answers to survey question on current roles. Total of 9 statisticians, 5 researchers, 1 research software engineer, one Data Scientist."></iframe>
-```
 
 ## Pre-Workshop: Stata Fluency
 
