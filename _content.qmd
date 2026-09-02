@@ -29,13 +29,12 @@
  
 ## Example artbin - Sample size calculator for randomized trials.
 
-![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." height="280"}
+![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." height="240"}
 
-  - Published in Stata journal
   - High quality software (including documentation and tests)
-  - Open source (GPL3) - anyone with a Stata license can download/use/modify artbin.
+  - Open source (GPL3) - free to download/modify
+    - need Stata Library to use.
   - Demonstrable impact - currently cited in 4 trial based studies.
-  - But can we increase impact by widening access?
 
 ## Motivation Stata and R (Software Metrics)
 
@@ -62,18 +61,6 @@
 
 ## Rapidly growing work on code translation using language models.
 
-![](images/paper_count.png){fig-alt="A plot showing a rapid increase in pubications references Lanugage models and code translations (to 65 in 2025)" width="65%"}
-
-## Stata2R: Practicalities
-
- - Resources:
-   - Departmental subscription to Claude Code.
-   - Approx 4 weeks RSE time.
- - Plan:
-   - Research Code translation. 
-   - Develop method -> A Claude Plugin.
-   - Develop HowTo for Statisticians.
-
 ## Agentic Coding (Claude Code)
  
  - A user interface for working with large language models to complete software tasks. 
@@ -82,34 +69,34 @@
  - Supports extension with "Skills" and "Plugins"
  - We wrote a Stata2R plugin with 4 skills to try and limit the effects of non deterministic behaviour.
 
-## Plugin Contents 2: Translation Strategy
+## Plugin Skill 1: Translation Strategy
  
  - Summarise the purpose of the library.
  - Is it worth translating? (existing R libraries, users etc)
  - Is the documentation and testing sufficient to enable a good translation.
  
-## Plugin Contents 2: Stata to Pseudocode
+## Plugin Skill 2: Stata to Pseudocode
  
  - Evidence that two stage translation creates better code.
  - Enables a human review step.
  - Supports translation to multiple target language. 
  - Deliberately excluded any existing tests.
  
-## Plugin Contents 3: Pseudocode to R
+## Plugin Skill 3: Pseudocode to R
  
  - Use the pseudocode to create an R package.
  - Copy over licence file and create README, CONTRIBUTING, files etc.
 
-## Plugin Contents 4: Add Stata Tests to R
+## Plugin Skill 4: Add Stata Tests to R
  
  - Port the Stata tests to R and confirm they pass (verification step)
  - Port Stata documentation and examples to R (create vignettes)
  
-## What's in a Skill
+## What's in a Plugin / Skill
 
 [Skills are Plain Text](https://github.com/stata-translations/Stata2R/blob/main/stata-translation/skills/)
 
- - Plugins are easy to install
+ - Plugins are collections of skills that are easy to install
 
     ```
     /plugins marketplace add https://github.com/stata-translations/Stata2R.git
@@ -128,11 +115,6 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
     - [Pre Workshop Surveys](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuNcJ7ofdGhDpRexUha3NYhUMU5QQ000NVpFTVRKRTEzRDRCQ0w4V05XMS4u)
     - [Post work shop survey](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwkgtFALcEfRKnhSRePBd-9dUQjI1SzdIT1pROVBHVDJSNDU3QUNZVTBGTiQlQCN0PWcu)
 
-## Results: Brief
-
-  - Claude can translate code and appears to give sensible results.
-  - Participants were generally happy and eager to pursue this further.
-  - Accuracy and validation is critical for clinical trials software.
 
 ## Pre-Workshop: Stata and R Fluency
 
@@ -143,21 +125,14 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 ## Post-Workshop: Skills assessment (interaction required).
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_interaction.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop: Skills assessment (reliability).
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_reliability.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_interaction.html" title="The amount of interaction required by model variant."></iframe>
 ```
 
 ## Post-Workshop: Skills assessment (Time Taken).
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_time.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_time.html" title="The time taken to perform translation by model variant."></iframe>
 ```
-
 
 ## Post-Workshop: Concerns Work Cloud
 
@@ -174,8 +149,8 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 ## Further Considerations
 
   - Ongoing development (do you plan on maintaining both versions?)
+  - Are you complying with the original license?
   - Who owns the copyright?
-  - Are you complying with the original license.
   - Preventing access to sensitive data.
 
 ## Summary
@@ -183,6 +158,7 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
   - Claude can translate code.
   - The plugin provides some structure, but human intervention is still required to keep Claude on track.
   - Translation depends on documentation and testing as well as source code quality.
+  - Accuracy and validation is critical for clinical trials software.
   - Results are non deterministic.
 
 ## Thanks
