@@ -193,11 +193,11 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 
 ## Thanks
   
-  Contributors:
+  **Contributors:**
 
-  Asif Tamuri, James Carpenter, Matthew Burnell, David Fisher, Babak Choodri-Oskooei, Matteo Quartagno, Becky Turner, Tra My Pham, Guilio Scola, Michelle Clements, Ian White, Samina Begum, Henry Bern, Akshay Jagadeesh, David Perez-Suarez, Haroon Chughtai, and Toby Thompson.
+  James Carpenter, Tra My Pham, Asif Tamuri, David Fisher, David Perez-Suarez, Matteo Quartagno, Carlos Diaz Montana
 
-  Links:
+  **Links:**
 
   Slides: [https://doi.org/10.5281/zenodo.22124101](https://doi.org/10.5281/zenodo.22124101)
   Workshop Results: [https://doi.org/10.5281/zenodo.22093627](https://doi.org/10.5281/zenodo.22093627)
