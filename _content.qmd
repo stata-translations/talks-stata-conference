@@ -63,7 +63,7 @@
  - A user interface for working with large language models to complete software tasks. 
  - Users communicate in plain text (for example "translate artbin to R")
  - Non deterministic (stochastic sampling from many possible answers).
- - We developed a Stata2R "plugin2 with 4 "skills" to try and limit the effects of non deterministic behaviour.
+ - We developed the **Stata2R** "plugin" with 4 "skills" to try and limit the effects of non deterministic behaviour.
 
 ## Plugin Skill 1: Translation Strategy
  
@@ -85,7 +85,8 @@
 
 ## Plugin Skill 4: Add Stata Tests to R
  
- - Port the Stata tests to R and confirm they pass (verification step)
+ - Port the Stata tests to R and confirm they pass.
+ - Document Stata to R test correspondence and verify results.
  - Port Stata documentation and examples to R (create vignettes)
  
 ## What's in a Plugin / Skill
@@ -103,8 +104,8 @@
 
 ## Run as an interactive workshop
 
-Developed and delivered a [Workshop](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md) to  
-10 statisticians. Aims:
+We developed and delivered a [Workshop](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md) to  
+10 statisticians aiming to:
 
   - Teach statisticians to use Claude to translate code.
   - Leverage statisticians skills to help understand how well Claude works.
