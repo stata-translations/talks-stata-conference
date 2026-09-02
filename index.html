@@ -35,72 +35,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    html { -webkit-text-size-adjust: 100%; }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="logo-slides_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link rel="stylesheet" href="css/style.css">
@@ -317,42 +251,45 @@
 <li class="fragment">Users communicate in plain text (for example “translate artbin to R”)</li>
 <li class="fragment">Non deterministic (stochastic sampling from many possible answers).</li>
 <li class="fragment">Supports extension with “Skills” and “Plugins”</li>
-<li class="fragment">We wrote a Stata2R plugin to try and limit the effects of non deterministic behaviour.</li>
+<li class="fragment">We wrote a Stata2R plugin with 4 skills to try and limit the effects of non deterministic behaviour.</li>
 </ul>
 </section>
-<section id="whats-in-a-plugin" class="slide level2">
-<h2>What’s in a plugin</h2>
-<p>A plugin is a collection of <code>Skills</code></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="" aria-label="1"></a>└── skills</span>
-<span id="cb1-2"><a href="" aria-label="2"></a>    ├── add-missing-tests</span>
-<span id="cb1-3"><a href="" aria-label="3"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-4"><a href="" aria-label="4"></a>    ├── add-stata-tests-r</span>
-<span id="cb1-5"><a href="" aria-label="5"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-6"><a href="" aria-label="6"></a>    ├── hello</span>
-<span id="cb1-7"><a href="" aria-label="7"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-8"><a href="" aria-label="8"></a>    ├── pseudocode-to-r</span>
-<span id="cb1-9"><a href="" aria-label="9"></a>    │&nbsp;&nbsp; ├── assets</span>
-<span id="cb1-10"><a href="" aria-label="10"></a>    │&nbsp;&nbsp; ├── references</span>
-<span id="cb1-11"><a href="" aria-label="11"></a>    │&nbsp;&nbsp; │&nbsp;&nbsp; └── language_mappings.md</span>
-<span id="cb1-12"><a href="" aria-label="12"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-13"><a href="" aria-label="13"></a>    ├── run-stata</span>
-<span id="cb1-14"><a href="" aria-label="14"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-15"><a href="" aria-label="15"></a>    ├── stata-to-pseudocode</span>
-<span id="cb1-16"><a href="" aria-label="16"></a>    │&nbsp;&nbsp; ├── assets</span>
-<span id="cb1-17"><a href="" aria-label="17"></a>    │&nbsp;&nbsp; ├── references</span>
-<span id="cb1-18"><a href="" aria-label="18"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-19"><a href="" aria-label="19"></a>    └── translation-strategy</span>
-<span id="cb1-20"><a href="" aria-label="20"></a>        ├── assets</span>
-<span id="cb1-21"><a href="" aria-label="21"></a>        ├── references</span>
-<span id="cb1-22"><a href="" aria-label="22"></a>        └── SKILL.md</span>
-<span id="cb1-23"><a href="" aria-label="23"></a></span>
-<span id="cb1-24"><a href="" aria-label="24"></a>15 directories, 8 files</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="plugin-contents-2-translation-strategy" class="slide level2">
+<h2>Plugin Contents 2: Translation Strategy</h2>
+<ul>
+<li class="fragment">Summarise the purpose of the library.</li>
+<li class="fragment">Is it worth translating? (existing R libraries, users etc)</li>
+<li class="fragment">Is the documentation and testing sufficient to enable a good translation.</li>
+</ul>
+</section>
+<section id="plugin-contents-2-stata-to-pseudocode" class="slide level2">
+<h2>Plugin Contents 2: Stata to Pseudocode</h2>
+<ul>
+<li class="fragment">Evidence that two stage translation creates better code.</li>
+<li class="fragment">Enables a human review step.</li>
+<li class="fragment">Supports translation to multiple target language.</li>
+<li class="fragment">Deliberately excluded any existing tests.</li>
+</ul>
+</section>
+<section id="plugin-contents-3-pseudocode-to-r" class="slide level2">
+<h2>Plugin Contents 3: Pseudocode to R</h2>
+<ul>
+<li class="fragment">Use the pseudocode to create an R package.</li>
+</ul>
+</section>
+<section id="plugin-contents-4-add-stata-tests-to-r" class="slide level2">
+<h2>Plugin Contents 4: Add Stata Tests to R</h2>
+<ul>
+<li class="fragment">Port the Stata tests to R and confirm they pass (verification step)</li>
+<li class="fragment">Port Stata documentation and examples to R (create vignettes)</li>
+<li class="fragment">Copy over licence file and create README, CONTRIBUTING, files etc.</li>
+</ul>
 </section>
 <section id="whats-in-a-skill" class="slide level2">
 <h2>What’s in a Skill</h2>
 <p><a href="https://github.com/stata-translations/Stata2R/blob/main/stata-translation/skills/">Skills are Plain Text</a></p>
 <ul>
-<li class="fragment"><p>And easy to install</p>
+<li class="fragment"><p>Plugins are easy to install</p>
 <pre><code>/plugins marketplace add https://github.com/stata-translations/Stata2R.git
 /plugin install stata-translation
 /reload-plugins
@@ -364,8 +301,8 @@
 <p>Developed and delivered a <a href="https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md">Workshop</a> to<br>
 10 statisticians. Aims:</p>
 <ul>
-<li class="fragment">Teach them how to use Claude to translate code.</li>
-<li class="fragment">Leverage their skills to help understand how well Claude works.
+<li class="fragment">Teach statisticians to use Claude to translate code.</li>
+<li class="fragment">Leverage statisticians skills to help understand how well Claude works.
 <ul>
 <li class="fragment"><a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuNcJ7ofdGhDpRexUha3NYhUMU5QQ000NVpFTVRKRTEzRDRCQ0w4V05XMS4u">Pre Workshop Surveys</a></li>
 <li class="fragment"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwkgtFALcEfRKnhSRePBd-9dUQjI1SzdIT1pROVBHVDJSNDU3QUNZVTBGTiQlQCN0PWcu">Post work shop survey</a></li>
