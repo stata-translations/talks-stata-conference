@@ -80,43 +80,36 @@
  - Users communicate in plain text (for example "translate artbin to R")
  - Non deterministic (stochastic sampling from many possible answers).
  - Supports extension with "Skills" and "Plugins"
- - We wrote a Stata2R plugin to try and limit the effects of non deterministic behaviour.
+ - We wrote a Stata2R plugin with 4 skills to try and limit the effects of non deterministic behaviour.
 
-## What's in a plugin
-A plugin is a collection of `Skills`
+## Plugin Contents 2: Translation Strategy
+ 
+ - Summarise the purpose of the library.
+ - Is it worth translating? (existing R libraries, users etc)
+ - Is the documentation and testing sufficient to enable a good translation.
+ 
+## Plugin Contents 2: Stata to Pseudocode
+ 
+ - Evidence that two stage translation creates better code.
+ - Enables a human review step.
+ - Supports translation to multiple target language. 
+ - Deliberately excluded any existing tests.
+ 
+## Plugin Contents 3: Pseudocode to R
+ 
+ - Use the pseudocode to create an R package.
 
-```md
-└── skills
-    ├── add-missing-tests
-    │   └── SKILL.md
-    ├── add-stata-tests-r
-    │   └── SKILL.md
-    ├── hello
-    │   └── SKILL.md
-    ├── pseudocode-to-r
-    │   ├── assets
-    │   ├── references
-    │   │   └── language_mappings.md
-    │   └── SKILL.md
-    ├── run-stata
-    │   └── SKILL.md
-    ├── stata-to-pseudocode
-    │   ├── assets
-    │   ├── references
-    │   └── SKILL.md
-    └── translation-strategy
-        ├── assets
-        ├── references
-        └── SKILL.md
-
-15 directories, 8 files
-```
-
+## Plugin Contents 4: Add Stata Tests to R
+ 
+ - Port the Stata tests to R and confirm they pass (verification step)
+ - Port Stata documentation and examples to R (create vignettes)
+ - Copy over licence file and create README, CONTRIBUTING, files etc.
+ 
 ## What's in a Skill
 
 [Skills are Plain Text](https://github.com/stata-translations/Stata2R/blob/main/stata-translation/skills/)
 
- - And easy to install
+ - Plugins are easy to install
 
     ```
     /plugins marketplace add https://github.com/stata-translations/Stata2R.git
@@ -125,14 +118,13 @@ A plugin is a collection of `Skills`
     /stata-translation:hello
     ```
 
-
 ## Run as an interactive workshop
 
 Developed and delivered a [Workshop](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md) to  
 10 statisticians. Aims:
 
-  - Teach them how to use Claude to translate code.
-  - Leverage their skills to help understand how well Claude works.
+  - Teach statisticians to use Claude to translate code.
+  - Leverage statisticians skills to help understand how well Claude works.
     - [Pre Workshop Surveys](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuNcJ7ofdGhDpRexUha3NYhUMU5QQ000NVpFTVRKRTEzRDRCQ0w4V05XMS4u)
     - [Post work shop survey](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwkgtFALcEfRKnhSRePBd-9dUQjI1SzdIT1pROVBHVDJSNDU3QUNZVTBGTiQlQCN0PWcu)
 
