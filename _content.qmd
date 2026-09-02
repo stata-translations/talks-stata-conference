@@ -23,18 +23,17 @@
    - Software that outlives the original grant funding.
  - Develop skills to contribute to key open source software.
 
-## Motivation - Stata Translation
+## Motication: Example artbin.
 
- - Maximise impact of software development.
- 
-## Example artbin - Sample size calculator for randomized trials.
+![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." height="440"}
 
-![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." height="240"}
+## Motication: Example artbin.
 
   - High quality software (including documentation and tests)
   - Demonstrated Impact - cited in 4 published trials.
   - Open source (GPL3) - free to download/modify
     - need Stata License to run.
+  - Can we increase impact by translation. 
 
 ## Motivation Stata and R (Software Metrics)
 
@@ -46,7 +45,7 @@
 ## Motivation Stata and R - Creating Impact
 
  - Conclusion. Translations;
-   - Likely to increase impact of software, but we can't be certain yet.
+   - Likely to increase impact of software, but no evidence yet.
 
 ## Stata2R: Practicalities
 
