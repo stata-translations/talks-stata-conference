@@ -1,31 +1,40 @@
 ## Today's Talk
 
- - Brief Introduction (Talk/Stephen/Toby)
- - Background (Collaboration with Clinical Trials Unit)
+ - Brief Introduction (UCL ICTU, UCL ARC)
  - Code Translation Motivation
  - Code Translation Mechanics
  - Workshop Results and Next Steps
 
-## Introduction: Stephen
+## Innovative Clinical Trials Unit
 
- - Senior Research Software Engineer Since October 2023
- - Background in augmented reality for keyhole surgery.
- - Mostly Healthcare projects: informus, education, EMAP, sense-base.
- - Special interest in game development for healthcare - Astrobalance.
-
-## Background - ARC Collaboration with ICTU
 ![](images/clinical_trials_unit.png){fig-alt="A screenshot of the Innovative Clinical Trials Unit website" height="280"}
 
- - World leaders in clinical trial design
- - Robust/tested statistics to support clinical trial design
- - 2nd Floor of 90HH
+ - World leaders in clinical trial design.
+ - Robust/tested statistics to support clinical trial design.
+ - Impact through successful clinical trials.
 
-## ARC / ICTU Collaboration
 
- - Multiyear funding for ARC to support ICTU to improve code quality and sharing.
- - Outputs: 
-   - "Using Large Language Models and Coding Agents to Translate Stata Packages: Benefits and Risks" [Stata Con, London, Next Week](https://stata-uk.com/stata-uk-2026.html)
-   - "Code Translation using Large Language Models: What's the role of the Research Software Engineer?" [RSE Con, September 2026](https://virtual.oxfordabstracts.com/event/76908/submission/92)
+## Advanced Research Computing
+
+![](images/arc.png){fig-alt="A screenshot of the Advanced Research Computing website, stating that ARC is UCL's research, innovation and service centre for the tools, practices and systems that enable computational science and digital scholarship." height="280"}
+
+ - Support researchers to create impact through software.
+ - Software re-use and software sustainability.
+   - Software that outlives the original grant funding.
+ - Develop skills to contribute to key open source software.
+
+## Motivation - Stata Translation
+
+ - Maximise impact of software development.
+ 
+## Example artbin - Sample size calculator for randomized trials.
+
+![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." " height="280"}
+
+  - Published in Stata journal
+  - Open source - anyone with a Stata license can download/use/modify artbin for thier own purposes.
+  - Demonstrable impact - currently cited in 4 trial based studies.
+
 
 ## Motivation - Stata Translation
 
@@ -239,6 +248,12 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 ```{=html}
 <iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_workshop_useful.html" title="The third blood vessel game."></iframe>
 ```
+
+## Further Considerations
+
+  - Ongoing development (do you plan on maintaining both versions?)
+  - Who owns the copyright?
+  - Are you complying with the original license.
 
 ## Summary
 
