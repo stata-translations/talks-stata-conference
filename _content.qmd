@@ -32,35 +32,23 @@
 ![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." " height="280"}
 
   - Published in Stata journal
-  - Open source - anyone with a Stata license can download/use/modify artbin for thier own purposes.
+  - High quality software (including documentation and tests)
+  - Open source (GPL3) - anyone with a Stata license can download/use/modify artbin.
   - Demonstrable impact - currently cited in 4 trial based studies.
-
-
-## Motivation - Stata Translation
-
- - Stata - commercial (closed source) statistical analysis software
-   - economics, sociology, health
- - Researchers can publish bespoke packages. 
-   - Stata journal enforces testing/documentation etc.
- - Compared to Python or R the software impact is limited. 
- - Can we increase software impact by translating to other languages?
-
-## Motivation Stata and R (Citation Metrics)
-
- - R Journal Impact (Scimago Journal Ranking: 0.483) (H-Index 71)
- - Stata Journal Impact (Scimago Journal Ranking: 1.699) (H-Index 123)
+  - But can we increase impact by widening access?
 
 ## Motivation Stata and R (Software Metrics)
 
+ - R is free and open source. 
+ - Many more users and developers for R.
  - Stata Language on GitHub 18.4K repositories ~ median 6 stars 
    - High impact Stata packages reghdfe 248 stars, ietoolkit 244
  - R Language on GithHub 1.1M repositories ~ median 313 stars 
-
+ 
 ## Motivation Stata and R - Creating Impact
 
  - Conclusion. Translations;
-   - may not have big impact on paper citations.
-   - likely to increase the software impact (re-use, contributions, maintenance) of your software.
+   - Likely to increase impact of software, but we can't be certain yet.
 
 ## Stata2R: Practicalities
 
@@ -85,6 +73,13 @@
    - Research Code translation. 
    - Develop method -> A Claude Plugin.
    - Develop HowTo for Statisticians.
+
+## Agentic Coding (Claude Code)
+ 
+ - A user interface for working with large language models to complete software tasks. 
+ - Users communicate in plain text (for example "translate artbin to R")
+ - Non deterministic (stochastic sampling from many possible answers).
+ - 
 
 ## What's in a plugin
 A plugin is a collection of `Skills`
@@ -254,6 +249,7 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
   - Ongoing development (do you plan on maintaining both versions?)
   - Who owns the copyright?
   - Are you complying with the original license.
+  - Preventing access to sensitive data.
 
 ## Summary
 
