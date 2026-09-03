@@ -27,13 +27,20 @@
 
 ![](images/artbin.png){fig-alt="A screenshot of the artbin publication in the Stata Journal titled artbin: Extended sample size for randomized trials with binary outcomes." height="440"}
 
-## Motication: Example artbin.
+## Motivation: Example artbin.
 
   - High quality software (including documentation and tests)
   - Demonstrated impact - used and cited in published trials.
   - Open source (GPL3) - free to download/modify
     - need Stata License to run.
   - Can we increase impact by translation. 
+
+## Motivation: Example reghdfe
+
+ - [reghdfe](https://github.com/sergiocorreia/reghdfe)
+ - High impact Stata package
+ - Is it sustainable/maintainable?
+ - Can we make it last longer by translation.
 
 ## Motivation Stata and R (Software Metrics)
 
