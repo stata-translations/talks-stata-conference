@@ -95,6 +95,7 @@
  - Port the Stata tests to R and confirm they pass.
  - Document Stata to R test correspondence and verify results.
  - Port Stata documentation and examples to R (create vignettes)
+ - Port any dialogues (graphical user interfaces) to R.
  
 ## What's in a Plugin / Skill
 
