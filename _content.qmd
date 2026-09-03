@@ -11,7 +11,7 @@
 
  - Expert in clinical trial design and analysis.
  - Robust/tested statistics to support clinical trial design.
- - Impact through successful clinical trials.
+ - Impact through successful clinical trials / publications.
 
 
 ## Advanced Research Computing
@@ -49,10 +49,9 @@
  - Stata Language on GitHub 18.4K repositories 
  - R Language on GithHub 1.1M repositories
  
-## Motivation Stata and R - Creating Impact
+## Motivation Stata and R - More Impact?
 
- - Conclusion. Translations;
-   - Likely to increase impact of software, but no evidence yet.
+ - Translation is likely to increase impact of software, but no evidence yet.
 
 ## Stata2R: Practicalities
 
