@@ -30,7 +30,7 @@
 ## Motication: Example artbin.
 
   - High quality software (including documentation and tests)
-  - Demonstrated Impact - cited in 4 published trials.
+  - Demonstrated impact - used and cited in published trials.
   - Open source (GPL3) - free to download/modify
     - need Stata License to run.
   - Can we increase impact by translation. 
