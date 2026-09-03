@@ -152,9 +152,7 @@ We developed and delivered a [Workshop](https://github.com/stata-translations/St
   - Translation depends on documentation and testing as well as source code quality.
   - Accuracy and validation is critical for clinical trials software.
 
-## Thanks
-  
-  **Contributors:**
+## Contributors:
 
   James Carpenter, Tra My Pham, Asif Tamuri, David Fisher, David Perez-Suarez, Matteo Quartagno, Carlos Diaz Montana, Ian White
 
@@ -163,3 +161,6 @@ We developed and delivered a [Workshop](https://github.com/stata-translations/St
   Slides: [https://doi.org/10.5281/zenodo.22124101](https://doi.org/10.5281/zenodo.22124100)
   Workshop Results: [https://doi.org/10.5281/zenodo.22093627](https://doi.org/10.5281/zenodo.22093626)
   Stata2R Plugin: [https://github.com/stata-translations/Stata2R](https://github.com/stata-translations/Stata2R)
+
+![](images/qr-code.png){fig-alt="Link to https://stata-translations.github.io/talks-stata-conference/" height="240"}
+
