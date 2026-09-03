@@ -160,6 +160,6 @@ We developed and delivered a [Workshop](https://github.com/stata-translations/St
 
   **Links:**
 
-  Slides: [https://doi.org/10.5281/zenodo.22124101](https://doi.org/10.5281/zenodo.22124101)
-  Workshop Results: [https://doi.org/10.5281/zenodo.22093627](https://doi.org/10.5281/zenodo.22093627)
+  Slides: [https://doi.org/10.5281/zenodo.22124101](https://doi.org/10.5281/zenodo.22124100)
+  Workshop Results: [https://doi.org/10.5281/zenodo.22093627](https://doi.org/10.5281/zenodo.22093626)
   Stata2R Plugin: [https://github.com/stata-translations/Stata2R](https://github.com/stata-translations/Stata2R)
