@@ -41,6 +41,7 @@
  - High impact Stata package
  - Is it sustainable/maintainable?
  - Can we make it last longer by translation.
+ - Compare with [dplyr](https://github.com/tidyverse/dplyr).
 
 ## Motivation Stata and R (Software Metrics)
 
